@@ -3,3 +3,68 @@
 *:before {
    box-sizing: border-box;
 }
+.clearfix:after {
+   content: "";
+   display: block;
+   clear: both;
+}
+body {
+   min-width: 1140px;
+}
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Quattrocento Sans', sans-serif;
+*/
+/*MAIN HEADER*/
+.main-header {
+   width: 100%;
+   height: 80px;
+   background: #1d2126;
+   display: flex;
+   align-items: center;
+}
+.header-wrapper {
+   width: 1140px;
+   margin: auto;
+}
+.main-header-logo {
+   float: left;
+   margin-left: 4px;
+   margin-top: 5px;
+}
+.main-nav ul {
+   display: flex;
+   flex-direction: row;
+   float: right;
+}
+.main-nav ul li {
+   margin-right: 16px;
+}
+.main-nav ul li:last-child {
+   margin-right: 0;
+}
+.main-nav ul li a {
+   text-decoration: none;
+   cursor: pointer;
+   border: 2px solid transparent;
+   border-radius: 3px;
+   color: #a4aead;
+   font-family: "Open Sans", sans-serif;
+   font-size: 14px;
+   line-height: 16px;
+   font-weight: 700;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   padding: 0 10px;
+   height: 30px;
+}
+.main-nav ul li a:not(.active):hover {
+   border: 2px solid #5b6168;
+}
+.main-nav ul .active {
+   border: 2px solid #23b7a4;
+   color: #23b7a4;
+}
+/*END OF MAIN HEADER*/
