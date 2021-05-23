@@ -123,5 +123,12 @@ font-family: 'Quattrocento Sans', sans-serif;
    background: #23b7a4;
    border: 2px solid #23b7a4;
 }
+.splide__arrow {
+   display: none;
+}
+.splide__pagination {
+   position: absolute;
+   bottom: 22px;
+}
 /*end of gallery*/
 /*END OF MAIN*/

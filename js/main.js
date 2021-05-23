@@ -1,8 +1,6 @@
-// new Splide('#splide', {
-// 	type: 'loop',
-// 	perPage: 3,
-// 	autoplay: true,
-// }).mount();
+document.addEventListener( 'DOMContentLoaded', function () {
+	new Splide( '.splide' ).mount();
+} );
 
 var scroll = new SmoothScroll('a[href*="#"]', {
 	speed: 1000
