@@ -60,11 +60,68 @@ font-family: 'Quattrocento Sans', sans-serif;
    padding: 0 10px;
    height: 30px;
 }
-.main-nav ul li a:not(.active):hover {
-   border: 2px solid #5b6168;
-}
 .main-nav ul .active {
    border: 2px solid #23b7a4;
    color: #23b7a4;
 }
+.main-nav ul li a:not(.active):hover {
+   border: 2px solid #5b6168;
+}
 /*END OF MAIN HEADER*/
+/*MAIN*/
+/*gallery*/
+.gallery-wrapper img {
+   display: block;
+   width: 100%;
+   min-height: 660px;
+}
+.gallery-wrapper {
+   position: relative;
+}
+.gallery-info {
+   width: 1140px;
+   margin: auto;
+}
+.gallery-info-block {
+   position: absolute;
+   top: 220px;
+   width: 655px;
+   margin-left: 5px;
+}
+.gallery-info strong {
+   color: #ffffff;
+   font: bold 36px/38px "Quattrocento Sans", sans-serif;
+   margin-bottom: 18px;
+   display: inline-block;
+}
+.gallery-info p {
+   color: #ccd0d7;
+   font: 400 16px/27px "Open Sans", sans-serif;
+   margin-bottom: 36px;
+}
+.gallery-links {
+   display: flex;
+   flex-direction: row;
+}
+.gallery-links li {
+   margin-right: 10px;
+}
+.gallery-links a {
+   color: #fff;
+   font: bold 14px/16px "Quattrocento Sans", sans-serif;
+   text-decoration: none;
+   cursor: pointer;
+   border: 2px solid #fff;
+   border-radius: 3px;
+   height: 44px;
+   min-width: 124px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.gallery-links a:hover {
+   background: #23b7a4;
+   border: 2px solid #23b7a4;
+}
+/*end of gallery*/
+/*END OF MAIN*/
