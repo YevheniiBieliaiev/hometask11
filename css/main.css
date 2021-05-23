@@ -130,5 +130,19 @@ font-family: 'Quattrocento Sans', sans-serif;
    position: absolute;
    bottom: 22px;
 }
+.splide__pagination .splide__pagination__page {
+   border-radius: 50%;
+   width: 13px;
+   height: 13px;
+   border: 2px solid #fff;
+   color: #fff;
+   background: none;
+   margin-right: 9px;
+   padding: 0;
+   cursor: pointer;
+}
+.splide__pagination .splide__pagination__page[aria-current="true"] {
+   background: #fff;
+}
 /*end of gallery*/
 /*END OF MAIN*/
