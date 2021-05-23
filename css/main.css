@@ -102,12 +102,6 @@ font-family: 'Quattrocento Sans', sans-serif;
    margin-bottom: 36px;
    display: block;
 }
-.splide__list li:nth-child(2) span {
-   color: #02053a;
-}
-.splide__list li:nth-child(3) span {
-   color: #fdfdfd;
-}
 .gallery-links {
    display: flex;
    flex-direction: row;
