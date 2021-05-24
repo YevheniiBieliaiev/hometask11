@@ -91,7 +91,7 @@ font-family: 'Quattrocento Sans', sans-serif;
 .gallery-info strong {
    color: #ffffff;
    font: 36px/38px "Open Sans", sans-serif;
-   letter-spacing: -2.6px;
+   letter-spacing: 1.3px;
    word-spacing: -0.6px;
    margin-bottom: 18px;
    display: block;
@@ -101,6 +101,7 @@ font-family: 'Quattrocento Sans', sans-serif;
    font: 400 16px/27px "Open Sans", sans-serif;
    margin-bottom: 36px;
    display: block;
+   letter-spacing: 1px;
 }
 .gallery-links {
    display: flex;
@@ -112,7 +113,7 @@ font-family: 'Quattrocento Sans', sans-serif;
 .gallery-links a {
    color: #fff;
    font: 14px/16px "Open Sans", sans-serif;
-   letter-spacing: -0.3px;
+   letter-spacing: 0.9px;
    word-spacing: -1.2px;
    text-decoration: none;
    cursor: pointer;
